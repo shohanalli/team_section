@@ -1,0 +1,86 @@
+.our_team_area {
+    padding: 90px 0 100px;
+    position: relative;
+    z-index: 1;
+    background-color: #ffffff;
+}
+.our_team_area:after {
+    position: absolute;
+    content: "";
+    width: 620px;
+    height: 580px;
+    background-image: url(../asset/image/shap.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+.section_title h1 {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.our_team_area_content h4 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.read_btn {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #464646;
+    font-weight: 700;
+    background: transparent;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+}
+.read_btn>i {
+    margin-left: 5px;
+    transition: .3s linear;
+}
+.read_btn:hover>i {
+    padding-left: 5px;  
+}
+.read_btn:hover{
+  color: #44a6f0;
+  
+}
+.single_member {
+    text-align: center;
+    background: #fff;
+    padding: 30px 0;
+    box-shadow: 0 0 9px rgba(0, 0, 0, 0.12);
+    transition: .3s linear;
+}
+
+.single_member:hover {
+    transform: translateY(5px);
+}
+.team_member_img {
+    border-radius: 50%;
+    width: 190px;
+    height: 190px;
+    margin-bottom: 25px;
+    overflow: hidden;
+    display: inline-block;
+}
+.social_icon a {
+    color: #565656;
+    font-size: 16px;
+    padding: 0 9px;
+    transition: .3s linear;
+}
+
+.social_icon {
+    margin-top: 10px;
+}
+
+.social_icon a:hover {
+    color: #44A6F0;
+}
+.single_member h5 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
